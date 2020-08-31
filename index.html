@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body> 
+    <h1>Форма для заполнения</h1>
+    <form action="/action_page.php">
+        <label for="name">Имя:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="number">Номер телефона:</label><br>
+        <input type="text" id="number" name="number"><br>
+        <label for="mail">Email:</label><br>
+        <input type="text" id="mail" name="mail"><br>
+        <label for="pass">Пароль:</label><br>
+        <input type="text" id="pass" name="pass"><br>
+      <p>Ваш опыт в программировании?</p>
+        <input type="radio" id="professional" name="experience" value="professional">
+        <label for="professional">Занимаюсь профессионально</label><br>
+        <input type="radio" id="little" name="experience" value="little">
+        <label for="little">Есть небольшой опыт</label><br>
+        <input type="radio" id="no" name="experience" value="no">
+        <label for="no">Я чайник</label><br>
+        <label for="msg">Оставьте Ваши пожелания:</label>
+        <textarea id="msg" name="user_message" ></textarea><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
